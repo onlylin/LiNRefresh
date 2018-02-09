@@ -135,6 +135,7 @@
 		3E8DAC68202ADE6E007443B1 = {
 			isa = PBXGroup;
 			children = (
+				3E8DAC96202ADEC4007443B1 /* LiNRefresh */,
 				3E8DAC73202ADE6E007443B1 /* LiNRefreshExample */,
 				3E8DAC88202ADE6E007443B1 /* LiNRefreshExampleTests */,
 				3E8DAC9D202ADEE1007443B1 /* LiNRefreshFramework */,
@@ -155,7 +156,6 @@
 		3E8DAC73202ADE6E007443B1 /* LiNRefreshExample */ = {
 			isa = PBXGroup;
 			children = (
-				3E8DAC96202ADEC4007443B1 /* LiNRefresh */,
 				3E8DAC95202ADE8E007443B1 /* Classes */,
 				3E8DAC94202ADE7A007443B1 /* Support Files */,
 			);
