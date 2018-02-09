@@ -178,3 +178,4 @@ extension UICollectionView: Swizzling {
         self.ln_reloadDataClosure?(self.ln_totalDataCount!)
     }
 }
+

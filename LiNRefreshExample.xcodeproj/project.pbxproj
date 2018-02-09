@@ -29,7 +29,7 @@
 		3E8DACBE202ADF3B007443B1 /* Bundle+LiNRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DACB8202ADF3A007443B1 /* Bundle+LiNRefresh.swift */; };
 		3E8DACBF202ADF3B007443B1 /* LiNRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E8DACB9202ADF3A007443B1 /* LiNRefresh.bundle */; };
 		3E8DACC0202ADF3B007443B1 /* LiNRefreshConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DACBA202ADF3B007443B1 /* LiNRefreshConst.swift */; };
-		3E8DACC1202ADF3B007443B1 /* UIScrollView+LNExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DACBB202ADF3B007443B1 /* UIScrollView+LNExtension.swift */; };
+		3E8DACC1202ADF3B007443B1 /* UIScrollView+LiNExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DACBB202ADF3B007443B1 /* UIScrollView+LiNExtension.swift */; };
 		3E8DACC3202ADF95007443B1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DACC2202ADF95007443B1 /* NavigationController.swift */; };
 		3EE9E375202B327E007AB240 /* LiNRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE9E374202B327E007AB240 /* LiNRefreshFooter.swift */; };
 /* End PBXBuildFile section */
@@ -92,7 +92,7 @@
 		3E8DACB8202ADF3A007443B1 /* Bundle+LiNRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+LiNRefresh.swift"; sourceTree = "<group>"; };
 		3E8DACB9202ADF3A007443B1 /* LiNRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LiNRefresh.bundle; sourceTree = "<group>"; };
 		3E8DACBA202ADF3B007443B1 /* LiNRefreshConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiNRefreshConst.swift; sourceTree = "<group>"; };
-		3E8DACBB202ADF3B007443B1 /* UIScrollView+LNExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+LNExtension.swift"; sourceTree = "<group>"; };
+		3E8DACBB202ADF3B007443B1 /* UIScrollView+LiNExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+LiNExtension.swift"; sourceTree = "<group>"; };
 		3E8DACC2202ADF95007443B1 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		3EE9E374202B327E007AB240 /* LiNRefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiNRefreshFooter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,7 +199,7 @@
 				3E8DACB0202ADF0D007443B1 /* Custom */,
 				3E8DACB8202ADF3A007443B1 /* Bundle+LiNRefresh.swift */,
 				3E8DACBA202ADF3B007443B1 /* LiNRefreshConst.swift */,
-				3E8DACBB202ADF3B007443B1 /* UIScrollView+LNExtension.swift */,
+				3E8DACBB202ADF3B007443B1 /* UIScrollView+LiNExtension.swift */,
 				3E8DACB6202ADF3A007443B1 /* UIScrollView+LiNRefresh.swift */,
 				3E8DACB7202ADF3A007443B1 /* UIView+LiNExtension.swift */,
 				3E8DACB9202ADF3A007443B1 /* LiNRefresh.bundle */,
@@ -409,7 +409,7 @@
 				3E8DACC0202ADF3B007443B1 /* LiNRefreshConst.swift in Sources */,
 				3E8DACAE202ADF08007443B1 /* LiNRefreshHeader.swift in Sources */,
 				3E8DAC75202ADE6E007443B1 /* AppDelegate.swift in Sources */,
-				3E8DACC1202ADF3B007443B1 /* UIScrollView+LNExtension.swift in Sources */,
+				3E8DACC1202ADF3B007443B1 /* UIScrollView+LiNExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
