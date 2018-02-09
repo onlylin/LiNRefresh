@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LiNRefreshAutoStateFooter: LiNRefreshAutoFooter {
+public class LiNRefreshAutoStateFooter: LiNRefreshAutoFooter {
     //文字和圈圈、箭头的距离
     var labelLeftInset: CGFloat?
     //隐藏刷新状态的文字

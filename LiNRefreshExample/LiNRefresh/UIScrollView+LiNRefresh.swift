@@ -76,7 +76,7 @@ extension UIScrollView {
     typealias ReloadDataClosure = (_ count: Int) -> Void
     
     //MARK : - Header
-    var ln_header : LiNRefreshHeader? {
+    open var ln_header : LiNRefreshHeader? {
         get {
             return objc_getAssociatedObject(self, &LiNRefreshHeaderKey) as? LiNRefreshHeader
         }
@@ -95,7 +95,7 @@ extension UIScrollView {
     }
     
     //MARK: - Footer
-    var ln_footer : LiNRefreshFooter? {
+    open var ln_footer : LiNRefreshFooter? {
         get {
             return objc_getAssociatedObject(self, &LiNRefreshFooterKey) as? LiNRefreshFooter
         }

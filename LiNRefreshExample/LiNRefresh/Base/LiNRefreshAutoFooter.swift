@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LiNRefreshAutoFooter: LiNRefreshFooter {
+public class LiNRefreshAutoFooter: LiNRefreshFooter {
     /** 当底部控件出现多少时就自动刷新(默认为1.0，也就是底部控件完全出现时，才会自动刷新) */
     var triggerAutomaticallyRefreshPercent: CGFloat = 1.0
     /** 是否自动刷新(默认为true) */
@@ -19,7 +19,7 @@ class LiNRefreshAutoFooter: LiNRefreshFooter {
     var isOneNewPan: Bool = false
 
     //MARK : - 初始化
-    override func willMove(toSuperview newSuperview: UIView?) {
+    override public func willMove(toSuperview newSuperview: UIView?) {
         super.willMove(toSuperview: newSuperview)
         
         //新的父控件
@@ -133,7 +133,7 @@ class LiNRefreshAutoFooter: LiNRefreshFooter {
     }
     
 
-    override var isHidden: Bool {
+    override public var isHidden: Bool {
         didSet {
             if !oldValue && isHidden {
                 self.state = LiNRefreshState.idel

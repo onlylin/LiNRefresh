@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LiNRefreshStateHeader: LiNRefreshHeader {
+public class LiNRefreshStateHeader: LiNRefreshHeader {
     
     var labelLeftInset: CGFloat = 0
     

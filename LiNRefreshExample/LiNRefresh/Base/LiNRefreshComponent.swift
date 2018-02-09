@@ -9,7 +9,7 @@
 import UIKit
 
 
-class LiNRefreshComponent: UIView {
+public class LiNRefreshComponent: UIView {
 
     //进入刷新状态的回调
     typealias LNRefreshComponentRefreshingClosure = () -> Void
@@ -80,7 +80,7 @@ class LiNRefreshComponent: UIView {
         self.prepare()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -90,12 +90,12 @@ class LiNRefreshComponent: UIView {
         self.backgroundColor = UIColor.clear
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         self.placeSubviews()
         super.layoutSubviews()
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         
         super.draw(rect)
         
@@ -105,7 +105,7 @@ class LiNRefreshComponent: UIView {
         }
     }
     
-    override func willMove(toSuperview newSuperview: UIView?) {
+    override public func willMove(toSuperview newSuperview: UIView?) {
         super.willMove(toSuperview: newSuperview)
         
         //如果不是UIScrollView，不做任何事情
@@ -156,7 +156,7 @@ class LiNRefreshComponent: UIView {
         self.pan = nil
     }
     
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
 //        print("offsetY = \(self.scrollView!.ln_offsetY)")
         

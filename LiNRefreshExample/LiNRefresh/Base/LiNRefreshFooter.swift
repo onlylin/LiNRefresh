@@ -8,9 +8,9 @@
 
 import UIKit
 
-class LiNRefreshFooter: LiNRefreshComponent {
+public class LiNRefreshFooter: LiNRefreshComponent {
 
-    override var isHidden: Bool {
+    override public var isHidden: Bool {
         didSet {
             
         }
@@ -22,7 +22,7 @@ class LiNRefreshFooter: LiNRefreshComponent {
         self.refreshingClosure = refresh
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -34,7 +34,7 @@ class LiNRefreshFooter: LiNRefreshComponent {
         self.ln_h = CGFloat(LiNRefreshFooterHeight)
     }
     
-    override func willMove(toSuperview newSuperview: UIView?) {
+    override public func willMove(toSuperview newSuperview: UIView?) {
         super.willMove(toSuperview: newSuperview)
         
         if newSuperview != nil {

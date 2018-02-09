@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LiNRefreshNormalHeader: LiNRefreshStateHeader {
+public class LiNRefreshNormalHeader: LiNRefreshStateHeader {
     
     var activityIndicatorViewStyle: UIActivityIndicatorViewStyle?
     {

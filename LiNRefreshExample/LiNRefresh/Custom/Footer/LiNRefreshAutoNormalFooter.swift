@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LiNRefreshAutoNormalFooter: LiNRefreshAutoStateFooter {
+public class LiNRefreshAutoNormalFooter: LiNRefreshAutoStateFooter {
     
     var activityIndicatorViewStyle: UIActivityIndicatorViewStyle?
     {
