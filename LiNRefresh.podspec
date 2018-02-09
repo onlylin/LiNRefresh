@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LiNRefresh"
-  s.version      = "1.0.9"
+  s.version      = "1.1.0"
   s.summary      = "A simple drop-down refresh widget with Swift"
 
   # This description is used to generate tags and improve search results.
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources 	  =	"LiNRefresh/LiNRefresh.bundle" 
+  s.resources 	  =	"LiNRefresh/**/LiNRefresh.bundle" 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 

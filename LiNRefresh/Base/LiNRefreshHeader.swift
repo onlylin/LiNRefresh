@@ -24,7 +24,7 @@ public class LiNRefreshHeader: LiNRefreshComponent {
     
     
     //MARK: - 初始化方法
-    init(refresh:@escaping LNRefreshComponentRefreshingClosure) {
+    public init(refresh:@escaping LNRefreshComponentRefreshingClosure) {
         super.init(frame: CGRect.init(x: 0, y: 0, width:0, height: 0))
         self.refreshingClosure = refresh
     }

@@ -12,15 +12,15 @@ import UIKit
 public class LiNRefreshComponent: UIView {
 
     //进入刷新状态的回调
-    typealias LNRefreshComponentRefreshingClosure = () -> Void
+    public typealias LNRefreshComponentRefreshingClosure = () -> Void
     //开始刷新的回调
-    typealias LNRefreshComponentBeginRefreshingClosure = () -> Void
+    public typealias LNRefreshComponentBeginRefreshingClosure = () -> Void
     //刷新结束后的回调
-    typealias LNRefreshComponentEndRefreshingClosure = () -> Void
+    public typealias LNRefreshComponentEndRefreshingClosure = () -> Void
     
-    var refreshingClosure: LNRefreshComponentRefreshingClosure?
-    var beginRefreshingClosure: LNRefreshComponentBeginRefreshingClosure?
-    var endRefreshingClosure: LNRefreshComponentEndRefreshingClosure?
+    public var refreshingClosure: LNRefreshComponentRefreshingClosure?
+    public var beginRefreshingClosure: LNRefreshComponentBeginRefreshingClosure?
+    public var endRefreshingClosure: LNRefreshComponentEndRefreshingClosure?
     
     //父控件
     weak var scrollView: UIScrollView?
