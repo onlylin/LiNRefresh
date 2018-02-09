@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LiNRefreshExample/**/*.swift"
+  s.source_files  = "LiNRefresh/**/*.swift"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources 	  =	"LiNRefreshExample/LiNRefresh/LiNRefresh.bundle" 
+  s.resources 	  =	"LiNRefresh/LiNRefresh.bundle" 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework     = "UIKit","Foundation"
+  # s.framework     = "UIKit","Foundation"
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
