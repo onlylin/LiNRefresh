@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources 	  =	"LiNRefresh/**/LiNRefresh.bundle" 
+  s.resources 	  =	"Pod/LiNRefresh/**/LiNRefresh.bundle" 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
