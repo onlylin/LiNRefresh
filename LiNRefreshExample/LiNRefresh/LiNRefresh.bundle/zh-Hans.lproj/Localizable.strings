@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  LNRefreshExample
+
+  Created by 林洁 on 2018/2/7.
+  Copyright © 2018年 lin. All rights reserved.
+*/
+"LiNRefreshHeaderIdleText" = "下拉可以刷新";
+"LiNRefreshHeaderPullingText" = "松开立即刷新";
+"LiNRefreshHeaderRefreshingText" = "正在刷新数据中...";
+
+"LiNRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+"LiNRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
+"LiNRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+
+"LiNRefreshBackFooterIdleText" = "上拉可以加载更多";
+"LiNRefreshBackFooterPullingText" = "松开立即加载更多";
+"LiNRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
+"LiNRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
+
+"LiNRefreshHeaderLastTimeText" = "最后更新：";
+"LiNRefreshHeaderDateTodayText" = "今天";
+"LiNRefreshHeaderNoneLastDateText" = "无记录";
