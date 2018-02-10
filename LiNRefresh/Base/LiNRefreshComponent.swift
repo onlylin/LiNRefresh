@@ -10,7 +10,7 @@ import UIKit
 
 
 public class LiNRefreshComponent: UIView {
-
+    
     //进入刷新状态的回调
     public typealias LNRefreshComponentRefreshingClosure = () -> Void
     //开始刷新的回调
@@ -33,7 +33,7 @@ public class LiNRefreshComponent: UIView {
     var state: LiNRefreshState?
     {
         didSet {
-//            print("LNRefreshComponent")
+            //            print("LNRefreshComponent")
             // 加入主队列的目的是等state属性设置完毕、设置完文字后再去布局子控件
             DispatchQueue.main.async {
                 self.setNeedsLayout()
@@ -141,7 +141,7 @@ public class LiNRefreshComponent: UIView {
     //MARK: - KVO监听
     private func addObservers() -> Void {
         let options: NSKeyValueObservingOptions = [.new, .old]
-
+        
         
         self.scrollView?.addObserver(self, forKeyPath: LiNRefreshKeyPathContentOffset, options:options, context: nil)
         self.scrollView?.addObserver(self, forKeyPath: LiNRefreshKeyPathContentSize, options:options, context: nil)
@@ -158,7 +158,7 @@ public class LiNRefreshComponent: UIView {
     
     override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
-//        print("offsetY = \(self.scrollView!.ln_offsetY)")
+        //        print("offsetY = \(self.scrollView!.ln_offsetY)")
         
         //遇到这些情况就直接返回
         if !self.isUserInteractionEnabled {
@@ -189,15 +189,15 @@ public class LiNRefreshComponent: UIView {
     func scrollViewPanStateDidChange(_ change: [NSKeyValueChangeKey : Any]?) -> Void {}
     
     
-//    func setState(_ state: LNRefreshState) -> Void {
-//
-//        self.state = state
-//
-//        // 加入主队列的目的是等state属性设置完毕、设置完文字后再去布局子控件
-//        DispatchQueue.main.async {
-//            self.setNeedsLayout()
-//        }
-//    }
+    //    func setState(_ state: LNRefreshState) -> Void {
+    //
+    //        self.state = state
+    //
+    //        // 加入主队列的目的是等state属性设置完毕、设置完文字后再去布局子控件
+    //        DispatchQueue.main.async {
+    //            self.setNeedsLayout()
+    //        }
+    //    }
     
     //MARK: - 进入刷新状态
     func beginRefreshing() -> Void {
@@ -208,12 +208,12 @@ public class LiNRefreshComponent: UIView {
         //只要在刷新就完全显示
         if (self.window != nil) {
             self.state = LiNRefreshState.refreshing
-//            self.setState(LNRefreshState.Refreshing)
+            //            self.setState(LNRefreshState.Refreshing)
         }else {
             // 预防正在刷新中时，调用本方法使得header inset回置失败
             if self.state != LiNRefreshState.refreshing {
                 self.state = LiNRefreshState.willRefresh
-//                self.setState(LNRefreshState.WillRefresh)
+                //                self.setState(LNRefreshState.WillRefresh)
                 // 刷新(预防从另一个控制器回到这个控制器的情况，回来要重新刷新一下)
                 self.setNeedsDisplay()
             }
@@ -221,7 +221,7 @@ public class LiNRefreshComponent: UIView {
     }
     
     //MARK: - 结束刷新状态
-    func endRefreshing() -> Void {
+    public func endRefreshing() -> Void {
         DispatchQueue.main.async {
             self.state = LiNRefreshState.idel
         }
@@ -261,3 +261,4 @@ extension UILabel {
     }
     
 }
+

@@ -9,7 +9,7 @@
 import UIKit
 
 public class LiNRefreshFooter: LiNRefreshComponent {
-
+    
     override public var isHidden: Bool {
         didSet {
             
@@ -56,13 +56,14 @@ public class LiNRefreshFooter: LiNRefreshComponent {
         }
     }
     
-    func noticeNoMoreData() -> Void {
+    public func noticeNoMoreData() -> Void {
         self.endRefreshingWithNoMoreData()
     }
     
-    func resetNoMoreData() -> Void {
+    public func resetNoMoreData() -> Void {
         DispatchQueue.main.async {
             self.state = LiNRefreshState.idel
         }
     }
 }
+

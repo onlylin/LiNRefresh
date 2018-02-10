@@ -161,7 +161,7 @@ extension UITableView: Swizzling{
 //        print("UITableView reloadData method")
         self.ln_reloadData()
         
-        self.ln_reloadDataClosure!(self.ln_totalDataCount!)
+        self.ln_reloadDataClosure?(self.ln_totalDataCount!)
     }
     
 }
