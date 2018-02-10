@@ -2,7 +2,7 @@
 //  LNRefreshAutoNormalFooter.swift
 //  LNRefreshExample
 //
-//  Created by 林洁 on 2018/2/8.
+//  Created by Lin on 2018/2/8.
 //  Copyright © 2018年 lin. All rights reserved.
 //
 

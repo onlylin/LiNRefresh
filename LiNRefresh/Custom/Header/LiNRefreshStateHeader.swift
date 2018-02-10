@@ -2,7 +2,7 @@
 //  MJRefreshStateHeader.swift
 //  LNRefreshExample
 //
-//  Created by 林洁 on 2018/2/6.
+//  Created by Lin on 2018/2/6.
 //  Copyright © 2018年 lin. All rights reserved.
 //
 

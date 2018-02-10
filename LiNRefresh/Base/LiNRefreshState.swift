@@ -2,7 +2,7 @@
 //  LNRefreshState.swift
 //  TourQ
 //
-//  Created by 林洁 on 2018/2/5.
+//  Created by Lin on 2018/2/5.
 //  Copyright © 2018年 Lin. All rights reserved.
 //
 
