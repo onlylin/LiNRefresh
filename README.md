@@ -15,3 +15,8 @@
       //refresh code          
   }
 ```
+
+## CocoaPods
+```Shell
+  pod 'LiNRefresh', '~> 1.1.3'
+```
