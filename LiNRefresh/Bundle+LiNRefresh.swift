@@ -11,7 +11,7 @@ import UIKit
 extension Bundle {
     
     static var refreshBundle: Bundle{
-        return Bundle.init(path: Bundle.main.path(forResource: "LiNRefresh", ofType: "bundle")!)!
+        return Bundle.init(path:Bundle.init(for: LiNRefreshComponent.self).path(forResource: "LiNRefresh", ofType: "bundle")!)!
     }
     
     static var arrowImage: UIImage{

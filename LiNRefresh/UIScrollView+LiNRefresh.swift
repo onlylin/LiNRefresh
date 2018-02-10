@@ -154,11 +154,11 @@ extension UITableView: Swizzling{
     
     static func swizzle() {
         self.exchangeInstanceMethod(method1: #selector(self.reloadData), method2: #selector(self.ln_reloadData))
-        print("方法交换了")
+//        print("方法交换了")
     }
     
     @objc func ln_reloadData() -> Void {
-        print("UITableView reloadData method")
+//        print("UITableView reloadData method")
         self.ln_reloadData()
         
         self.ln_reloadDataClosure!(self.ln_totalDataCount!)
